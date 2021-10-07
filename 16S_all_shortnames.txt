@@ -1,0 +1,1 @@
+Error: the name of the species "O.minor Octopus_minor_mitochondrial_DNA,_complete_genome" in the tab-separated file is longer than 8 characters! Exiting!
