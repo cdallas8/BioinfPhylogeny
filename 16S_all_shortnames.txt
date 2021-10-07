@@ -1,0 +1,1 @@
+Error: the name of the species "make_me_to_max_8_characters" in the tab-separated file is longer than 8 characters! Exiting!
