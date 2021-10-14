@@ -1,0 +1,421 @@
+#NEXUS
+
+
+BEGIN DATA;
+ DIMENSIONS NTAX=15 NCHAR=2298;
+ FORMAT DATATYPE=DNA INTERLEAVE MISSING=-;
+[Name: S_velum          Len:  2298  Check:    0]
+[Name: O_varia          Len:  2298  Check:    0]
+[Name: O_bimac          Len:  2298  Check:    0]
+[Name: O_sinens         Len:  2298  Check:    0]
+[Name: D_gigas          Len:  2298  Check:    0]
+[Name: S_ouala          Len:  2298  Check:    0]
+[Name: S_spirul         Len:  2298  Check:    0]
+[Name: B_abyss          Len:  2298  Check:    0]
+[Name: O_minor          Len:  2298  Check:    0]
+[Name: M_cali           Len:  2298  Check:    0]
+[Name: E_dofle          Len:  2298  Check:    0]
+[Name: A_fulica         Len:  2298  Check:    0]
+[Name: A_limba          Len:  2298  Check:    0]
+[Name: A_vulgar         Len:  2298  Check:    0]
+[Name: C_annae          Len:  2298  Check:    0]
+
+MATRIX
+S_velum              -------------------- ---TAAATTATTAAACAATT TCATTATCATATTATCCTAA ATCTT---ACTT-TCTC--T AATCCCACAATTAGCTTTAA
+O_varia              -------------------- --------------TAAACA TAAT-----TATTTTATTTA ATTTTATAATTAATTATAAT CAATCC--------------
+O_bimac              ------------TTCACATA TCTCTGCCAACTTTATTATA TAACCTTACAAAATTAATTA ATATA---ATTAATTACAAT CAATCC--------------
+O_sinens             -------------------- --------CCAATATTTATA AAATTAATTAAAAACAATTA ATCAT---AATCAATCC--- --------------------
+D_gigas              -------------------- ----------------ATTG TAAT-----------AATAA ATTTT---AGCC-TTCC--T TGGTCC--------------
+S_ouala              -------------------- ----------------ATTA TAAT-----------AATAA ATTTT---AGCA-TTCC--T TGGTCC--------------
+S_spirul             -------------------- ------------------TA TAAT-----------AATAA CTATC---AGC--TTCT--T TGGTCC--------------
+B_abyss              -------------------- ----------------AATA TAAT-----------AAATA ATTTT---AGTA-TTCT--T TGGTCC--------------
+O_minor              -------------------- -----------CTAATACTC TAATATTTTCATTCAAATTA AGTCT---AATA-------- --------------------
+M_cali               -------------------- -------------------- TAATGATCTTTATTTAATTT ACTCT---TATAACTGT--T TTGTGAAAAGTAAGGCTG--
+E_dofle              --------------AATTTA ATTTTATTTTGAATAAATTA TAATGTTAAT-----ATGAA AAGTT---TGTTATTAT--T TAGTATATAGTTGGGAAAAT
+A_fulica             -------------------- ------------------AG TAATTGGTCAGGAGAGATTA CGTTT--------------G TGGTACG-------------
+A_limba              CAAGGAGAACTAATCGCCTA AGCTACTTCTTATTCCACTC TAACAAAGAAATTATTGTTA ATAATTACAGCAATATATGT GGATATAAAGACATAT----
+A_vulgar             -------------------- ----------------GTTA GGAAACAGAAAAATACATTA ATATTGTAAGTT-------- --------------------
+C_annae              -------------------- ----TTTCTAAAAGATGTTA TGATAAA--------AAACA TTTTT---AATA-------- --------------------
+
+S_velum              ACGATCCTTTCGTACTAGTA AAAG--------------CT TTATTAAAACT-AAGGAT-- ----AGAAACCA-------- ---ACCTGGCTCACGCCGGT
+O_varia              -------TTTCGTACTAAAT TAAATT------------TA AAATAAAATTTAAAAGAT-- ----AAAAACCA-------- ---ACCTGGCTTTCACCGGT
+O_bimac              -------TTTCGTACTAAAT CAAAT-------------AA AAAAATAATTTAAAAGAT-- ----AAAAACCA-------- ---ACCTGGTTTTCACCGGT
+O_sinens             -------TTTCGTACTAAAT CAAAT-------------AA AAAAATAATTTAAAAGAT-- ----AAAAACCA-------- ---ACCTGGTTTTCACCGGT
+D_gigas              -------TCTCGTACTAAAA GAAG--------------CA ACACTCATTTTAAAAGAT-- ----AGAAACCA-------- ---ACCTGGCTCACGCCGGT
+S_ouala              -------TCTCGTACTAAAA GAAG--------------CA ACACTCATTTTAAAAGAT-- ----AGAAACCA-------- ---ACCTGGCTCACGCCGGT
+S_spirul             -------TCTCGTACTAAAA GAAA--------------CA ATAACATTTTTAAAAGAT-- ----AAAAACCA-------- ---ACCTGGCTCACGCCGGT
+B_abyss              -------TCTCGTACTAAAA GAAA--------------CA ATAA-CACTTTAAAAGAT-- ----AAAAACCA-------- ---ACCTGGCTCACACCGGT
+O_minor              ---------------TAGGA CGAA---------------- ---------CTAAAAAAC-- ----AAACAAAA-------- --------------------
+M_cali               -------TCTAAGATTAGTA TATG---------------- ----------TAAATTTT-- ----AGT------------- ---ACCT------------T
+E_dofle              TTTATTGTTTTGTACTGAAA AGGATA------------TA ATAAGTTTGTTTTATTAT-- ----AGTAAAAATTAGATTT TGTATCT------------T
+A_fulica             -------TTTTACCTTATGG GGTG---------------- --------TGGAGAGTATTT TTTTGGGGACCTAT------ ---ACCT------------T
+A_limba              -------TACAAAATTAGAA GAAACATCTCTAACAAACTA ATAAGGACACTAAAGTATTG GCGAAAGAAATAGTGGATAC CACAAAAATTTATTAGGTAT
+A_vulgar             -------TTTTATATT---- -------------------- -------------------- -------------------- ---ACCT------------T
+C_annae              -------TATGGTACA---- ------------------TA CTTGGAATTTTAAAAGAT-- ----AAATTGTT-------- ---CCGTAGTTCTTACCT-T
+
+S_velum              CTGAACT--CAGATCATGTA AGG------TTTTAATGGTC GAACAG-------------- -------------------- --------------------
+O_varia              TTGAACT--CAGATCATGTA AAA------TTTTAAAAATC GAACAG-------------- -------------------- --------------------
+O_bimac              TTGAACT--CAGATCATGTA AAA------TTTTAAAAATC GAACAG-------------- -------------------- --------------------
+O_sinens             TTGAACT--CAGATCATGTA AAA------TTTTAAAAATC GAACAG-------------- -------------------- --------------------
+D_gigas              CTGAACT--CAGATCATGTA AAG------TATTAAAAATC GAACAG-------------- -------------------- --------------------
+S_ouala              CTGAACT--CAGATCATGTA AAG------TATTAAAAATC GAACAG-------------- -------------------- --------------------
+S_spirul             CTGAACT--CAGATCATGTA AAG------TTTTAAAAATC GAACAG-------------- -------------------- --------------------
+B_abyss              CTGAACT--CAGATCATGTA AAG------TTTTAAAAATC GAACAG-------------- -------------------- --------------------
+O_minor              ----------------TATA AAA------CTCTAAAAATA CGCCCA-------------- -------------------- --------------------
+M_cali               TTGCATA--AGGGTTTTTCA AGA---TAAATTTAAATATT TAA----------------- -------------------- --------------------
+E_dofle              TTGCATA--ATAGTTTAATA ATA---------TAATTATT TGATAA-------------- -------------------- --------------------
+A_fulica             TTGCATA--ATGGCTTTACA AAAATTGGTAAGTATATATA GTCCCGAA------------ -------------------- --------------------
+A_limba              ATGAATATCTAGGTAATATA GAAGTTGACTTATAAATATA GTACTGTAAAGGAAAGGACA TATATATCTGACCTACTTCT TCTTGTTTTCTGTTGTCAAA
+A_vulgar             TTGCATA--ATGGCTTTACT ATA------AATTAAAGAAT ATATC--------------- -------------------- --------------------
+C_annae              TGGTATA--ATGGCTGTACA AAA-------ATTAAGATTG AATTAT-------------- -------------------- --------------------
+
+S_velum              --ACCAACCCTC----GAAA GCTGCT-------ACACCTT --CAGGACACCT-TAGTC-- --------CAACATCGA-GG TC------------------
+O_varia              --ATTCACCTAAC----AAA GCCTCT-------ACACCTT --AAGGTAATTTTTAATC-- --------CAACATCGA-GG TC------------------
+O_bimac              --ATTTACCTAAC---AAAG CCCTCT-------ACACCCT TAAGGGTTAATTTTAATC-- --------CAACATCGAGGG TC------------------
+O_sinens             --ATTTACCTAAT----AAA GCCTCT-------ACACCTT --AAGGTCAATTTTAATC-- --------CAACATCGA-GG TC------------------
+D_gigas              --ATTTACCTTAC---TAAA GCTTCT-------GCACCTT --AAGGTTACTT-TAATC-- --------CAACATCGA-GG TC------------------
+S_ouala              --ATTTACCTTAC---TAAA GCTTCT-------GCACCTT --AAGGTTACTT-TAATC-- --------CAACATCGA-GG TC------------------
+S_spirul             --ATTTACCTAAT---TAAA GCTTCT-------ACACCTT --AAGGTAACTT-TAATC-- --------CAACATCGA-GG TC------------------
+B_abyss              --ATTTACCTACT----AAA GCTACT-------ACACCTT --AAGGATACTT-TAATC-- --------CAACATCGA-GG TC------------------
+O_minor              --AC-TATCTCAT----AAG GATATTCAACAGGACACCTT C-CAATTCATGT-------- --------TAAAATAAA--- --------------------
+M_cali               --ATTTCCCGAAT--AAAAA AGAGTT-------ATTCCTT --TGAGTTA----------- --------AAAAATCGT-GG TA------------------
+E_dofle              --TTATTTCTCGAAATAGAA GGATTT-------ATATATT AGATTTTTATTT-TAATTAT -------ATGATAATTAAAG T-------------------
+A_fulica             --ATTTACTTGAT--CTAAG AGTCTC-------ACACTTT TAGCAGCTAAACTTAAGTGT AG------CATAACTTAGGG TC------------------
+A_limba              CAACGTACCTTTTGTATAAT GGGCTTGCTAGAATCAATTT GGTTAGCTTATTATAGCCAT ACTCATGACAAAATCAAATA TTCCCGAAACTAGGTGATCA
+A_vulgar             --CTTTATCCGAAATAGGAA GATCTA-------TTTACTT --ACATATATATGTAGCA-- --------TAATATTAA--- --------------------
+C_annae              --AATTCCCGAAC---TAAG AAGA---------ACTATTT GATAACTTGTTT-------- --------TAGCATATA--- --------------------
+
+S_velum              -------------------- ----GCAACCCTCTTTTTCG A-----TA-------AGAAC TCTCAA--------AAAAGA TTACGCTGTTATCCC-----
+O_varia              -------------------- ----GCAATCTCTTTTTTCA A-----TA-------TGAAC TCTCAA--------AAAAAA TTACGCTGTTACCCC-----
+O_bimac              -------------------- ----GCAATCTCTTTTTTCA A-----TA-------CGAAC TCTCAA-------AAAAAAA TTACGCTGTTATCCC-----
+O_sinens             -------------------- ----GCAATCTCTTTTTTCA A-----TA-------TGAAC TCTCAA--------AAAAAA TTACGCTGTTATCCC-----
+D_gigas              -------------------- ----GCAATCTCGTTTTTCA A-----TA-------AGAAC TCTCTA--------AACGAA TTACGCTGTTATCCC-----
+S_ouala              -------------------- ----GCAATCTCGTTTTTCA A-----TA-------AGAAC TCTCTA--------AACAAA TTACGCTGTTATCCC-----
+S_spirul             -------------------- ----GCAATCTCATTTTTCA A-----TA-------AGAAC TCTCTA--------AACAAA TTACGCTGTTATCCC-----
+B_abyss              -------------------- ----GCAATCTCATTTTTCA A-----TA-------AGAAC TCTCTA--------AATAAA TTACGCTGTTATCCC-----
+O_minor              -------------------- ------AAACACTCCTACTA AAAATCAAAAAC---AAAAT TGCCCT--------AAAAAA TTATATCTTAATCCCATACA
+M_cali               -------------------- ----GAGATTTA-------- ------TA-------TAAAC TAAGGA---ATAGCGGCTAG ATACTATTCGCGTTT-----
+E_dofle              -------------------- ------AAAATTGTTTGTTA ACGTGGTATAGTTATATAAT TAATAATATATGGTAGTGAA ACGCTATTCGATTTT-----
+A_fulica             -------------------- -------------------- ---------------AAGAT TCTCTT-----AGGGGTGAT ATGCCAATCAAGTTA-----
+A_limba              ATTCTGAAGTAGCCAGCAGG GCCAACCATTTACTGTTTCA A-----AAGTTTTGGAAAAC TTCAGA---ATAGGAGTGAA ATACTAATCGAACCT-----
+A_vulgar             -------------------- --------TTTTAATTATAA A-----TAGGAGTGAAAGGC TTTCAA-------------- -----------TTCC-----
+C_annae              -------------------- ------AAAGTTATGTGGAA A-----TATGGCTTATAGAT TATCAA---ATAGGAGCGAA AAACT-TTCAATTCT-----
+
+S_velum              ----------TATGGTAACT TCTT------------CTTA TAATCAGAAT---------A GTCCTG-GATCACCAATTCA TATA---------ACTTATA
+O_varia              ----------TATGGTAACT T-AT------------CTTA TAAGCAAA-----------A AACTTG-GTTTATTACTCTA TAAA-------------AAC
+O_bimac              ----------TATGGTAACT T-AT------------CTTC TAAGCAAAA----------A AACTTG-GTTTATTTTTCCA AAAA---------AATAG--
+O_sinens             ----------TATGGTAACT T-AT------------CTTC TAAGCAAA-----------A AACTTG-GTTTATTCTTCAA CTAA----------------
+D_gigas              ----------TATGGTAACT A--T------------ATTA TAAGCAATAT---------T ATATTG-GTTACTTTATCTA TAAA---------TAT----
+S_ouala              ----------TATGGTAACT A--T------------ATTA TAAGCAATAT---------T ATATTG-GTTACTTTATCTA TAAA---------CAT----
+S_spirul             ----------TATGGTAACT A--T------------AATA TAAGCAATAA---------C ATATTG-GTTACTTAACCTA ACAA---------TAT----
+B_abyss              ----------TATGGTAACT A--T------------AATA TAAGCAATAC---------T ATATTG-GTTACTTCATAAT AAAA---------TAT----
+O_minor              TCCCCTCACATGTAATAGCG G--A------------CAAA CAAACAAAAT---------A ATAATA-------------- --------------------
+M_cali               ----------TTAGATATCT G-GT------------TAGC TTAAAAAGATGCGTA----A GCATTGCTTTTAAATAATTA AAAGGTAAGGTTTTTTGGGT
+E_dofle              ----------TAAGATAGCT A--G------------TTTA TTATTATATCATTTTAGTGA ATGTTGGAATAAATTATTTA GGTA---------AATTATT
+A_fulica             ----------AAAGATATCT G---------------GGTG TAGGGGAAA----------T ATATTTAGTATATATAGTAC ATAG---------CAT----
+A_limba              ----------AGAAATAGCT GGTTTTCTACCAAATCCTTA TTAGAGGAAC---------A GTGCTATATTAACCACTTTG TAAAATTAAAATTAGTGGTA
+A_vulgar             ----------TAAGATATCT G---------------GTTT TAGGTTATATATATAT---A GTATAG-GATACTTTCTCAA GCAC----------------
+C_annae              ----------TAAGATATCT G-GA------------AATT TCAGAAAAGCATGT-----A GTGCTG------AAAAGTTA GACA----------------
+
+S_velum              TAACATTAA----AGGAAGA TTAC---------------- ----CTTTT--TCCTTGATC GCCCCAATCAAAATC----- -----------TATTA----
+O_varia              AATCATTAATTTTAAGGAAG TTACTTTATC---------- ----TTTAT--TCCTTGATC ACCCCAATCAAAATTAAATC CAATTAAATA-TATATATAT
+O_bimac              ------TTCAGTTAAGGAAG TTA-TATAATCATTAAA--- ----CTTAT--TCCTTGATC ACCCCAACCAAAATT----- -----------AATTT----
+O_sinens             ---ATTTAAAATTAAGGAAG TTAATAAAACACTTTAAATT AATTTTTAT--TCCTTGATC ACCCCAACCAAAGTTATTTA CAAATAAATCATATAT----
+D_gigas              ------TCAATTTAAGGAAG TTACTATATTCAA------- ----CTTAT--TCCTTAATC ACCCCAATTAAAATT----- -----------TATAT----
+S_ouala              ------TTACTTTGAGGAAG TTACTTCAATCAA------- ----CTTAT--TCCTCAATC ACCCCAATTAAAATT----- -----------TATAT----
+S_spirul             ------TTACTTTAAGGAAG TTACTATTAACA-------- ----TTTAT--TCCTTAATC ACCCCAACTAAAATT----- -----------TATAT----
+B_abyss              ------ATAACCTAAGGAAG TTACTATACAA--------- ----TTTAT--TCCTTAATC ACCCCAACTAAAAT------ -----------TATAT----
+O_minor              ----------------GACA TTATTAAA------------ ----CTTAC------TACTC CCCCCAATT----------- -----------TATTT----
+M_cali               TAAGCTGAAAAACAAAGAAA TTGACTTTATTAAAAAAATT GGTTTTTATAGGCTTTAAAC TGGCTATTTAACATT----- -----------AATGT----
+E_dofle              TTTATATATATATTGGGGGA TAAGCTT------------- ----CTTAT--AAGTTAGTG AGATTAATTATTATTT---- -----------TATTT----
+A_fulica             ------AAACTATAAGG--- -------------------- ----TTTATGCCACACAATA TTATCAATTAAT-------- -----------TATAT----
+A_limba              ATATTAACACTTTGATAGAC CAATAATGATAAG------- ----ATTGTTGGTCAAGAGA GAAACAACTCGGATTACAAG CCAAGGA----CATTA----
+A_vulgar             -----ATAATGTTAAGGT-- -------------------- ----TTCGT----------- GCACACATAAAAATC----- -----------TACTT----
+C_annae              ------TAAAGCTATGAGGT TT------------------ ----TTTGT----------- ----AAACAAAAACT----- -----------TAAAT----
+
+S_velum              ----------CTTAATTAAA CTCTATCTATATACTTTTAT TTAAGTAA----AAAA---- -------------------- ------CTAAA--------G
+O_varia              ATACAACATAATTTTCATAA TATAAATTATATATTTATAT TTAAATATTAATAAAT---- -------------------- ---------AAA-------G
+O_bimac              ----------ATAAT----- ---AAATTATAACTCTATAA TTTAATAA-----ATA---- -------------------- ------ATATAA-------G
+O_sinens             ----------ATATA----- ---TATATATATATCTATAT AATAACAAAA---------- -------------------- -------------------G
+D_gigas              ----------ATTGC----- ---TATCTAAATATT--TTA AATAACAATAATAAAA---- -------------------- ------TTACAA-------G
+S_ouala              ----------ATTAT----- ---TGATCAAATATT--TTA AACAATAATAATAAAA---- -------------------- ------TTATAA-------G
+S_spirul             ----------ATTAC----- ---TAATCACAATT---AAT AATAGTAATAATAAAA---- -------------------- ------TTATAA-------G
+B_abyss              ----------ATTAC----- ---TATATCAATACTACTAA TATAATAATAATAAAA---- -------------------- ------TTACAA-------G
+O_minor              ----------GGAAT----- ---------AGAAC--GTAA AATAGCATAAGCAAAT---- -------------------- ------AAAAAA-------T
+M_cali               ----------ATTTT----- -------------------- ---AACTAAAACCAGA---- -------------------- ------CAACGA-------A
+E_dofle              ----------GATAT-TAAA GTTGAATTAATAGTTCTTTT TATATTTATAATAATG---- -------------------- ------TTAAAATTAAATAA
+A_fulica             ------TAGAATTAT----- -------------------- ----TTAATAATTAAT---- -------------------- -------------------A
+A_limba              ----------ATTAA----- --TTAAATGTATACACAATA GAAAGTAAAAATAGAGGACA AGTGGGCTTGGAAGCAGCCA TCTTATTGACAAC------G
+A_vulgar             ----------ATTTC----- ---TACCAAACTAT------ AATAATTGTATGGAAA---- -------------------- ------TTACAC--------
+C_annae              ----------AATTT----- --------------TTTTCA ATTCTTTATAATTAA----- -------------------- -------------------T
+
+S_velum              CTCAATAGGGTCTTCT---T GT------CCTATAGCCTA- ------ATTTAGGCCTCTTC A----CCTAAAA-------- ----GTCAATTTCTAAC---
+O_varia              CTCAATAGGGTCTTCT---C GT------CCCCTTAAATT- ------ATTCAAGCTTTTTC A---CTATAAAA-------- ----ATTAATTTCTAAC---
+O_bimac              CTCAATAGGGTCTTTT---C GT------CCCTTTAAACA- ------AATTAAGCTTTCTC A---CTATAAAA-------- ----ATTAATTTCTAAT---
+O_sinens             CTCAATAGGGTCTTTT---C GT------CCCTTTAAATA- ------ATTAAAGCTTTTTC A---CTATAAAA-------- ----ATTAATTTCTAAT---
+D_gigas              CTCATTAGGGTCTTCT---C GT------CCCTTTAAAAA- ------ATTTAAGCTTTTTC A---CTTTAAAA-------- ----ATTAAATTCTAAA---
+S_ouala              CTCATTAGGGTCTTCT---C GT------CCCTTTAAAAA- ------ATTTAAGCTTTTTC A---CTTTAAAA-------- ----ATTAAATTCTAAA---
+S_spirul             CTCAATAGGGTCTTCT---C GT------CCCTTTAAAAA- ------ATTCAAGCTTTTTC A---CTATAAAA-------- ----ATTAAATTCTAAA---
+B_abyss              CTCAATAGGGTCTTCT---C GT------CCCTYTAAAAA- ------ATCCAAGCTTTTTC A---CTTTAAAA-------- ----ATTAAATTCTAAA---
+O_minor              ATCACTCAGGTTTAATATGA ATAGGAGTAACCAAAGGATT TGCAGGAATAAAATTTTCCG CATCTCCTAAAA-------- -------AATTGGGAAA---
+M_cali               GACGATAAATTGGTTT---T GTCATATGTGTCTAATAAG- -----------------CTT ATGGTTATAAAA-------- ------------CTAAT---
+E_dofle              ATTATTTAATCTTTAT---T AT---------ATTAAGAT- ------AGTAAATTATTTTT AATTTTTTAAAA-------- -TTAAATATAATGTTAA---
+A_fulica             ATTAATCAGTCC-------- --------ACTCTTATAGA- ------ACTTAGTTTTATGC G------------------- --------------------
+A_limba              CGTAACAGCGGCTCCT---A AAAACATATCTATTATAAAT TATGGTGGCTAAACAATTCC AAAGCTCTAAAAAACAGGTA GTAGAACAGACTATTGATTA
+A_vulgar             ----ATATAATTTTAC---T AGTATAGTTATGTAAAAGA- ------GCTGAATACTTTAT AAACCTCCCAAT-------- --------------------
+C_annae              CTTAAAGAGATTTTAT---T AT---------TTAAAATTA TTATTTTTTTTAGTATTTTG TATATTATGAAATTAGTCCA AATTATTTATTTCTGGA---
+
+S_velum              -------------------- -------------------- ----------AAATTAATCT A-----AGACAGTTAAGCC- CTCGTCA------AACCA--
+O_varia              -------------------- -------------------- ----------AAATAAAATA A-----AGACAGTCTAATT- TTCGTCA------AACCA--
+O_bimac              -------------------- -------------------- ----------AAATAAAATA G-----AGACAGTTAAATT- TTCGTCA------AACCA--
+O_sinens             -------------------- -------------------- ----------AAATAAAATA G-----AGACAGTTAAATT- CTCGTCA------AACCA--
+D_gigas              -------------------- -------------------- ----------AAATAAGATG G-----AGACAGATTAACC- TTCGTCA------AACCA--
+S_ouala              -------------------- -------------------- ----------AAATAAGATG G-----AGACAGATTAACC- TTCGTCA------AACCA--
+S_spirul             -------------------- -------------------- ----------AAATAAAATA G-----AGACAGATTAACC- TTCGTCA------AACCA--
+B_abyss              -------------------- -------------------- ----------AAATAAGATA G-----AGACAGATTAACC- TTCGTCA------AACCA--
+O_minor              -------------------- -------------------- ----------TAATAACCTT AACTCCACTAATATAAATAA TATAACA------AAAAA--
+M_cali               -------------------- -------------------- ----------AATTATGATA A-----AAACGAGTAAAAAT TTTTTTC------AACAGGT
+E_dofle              -------------------- -------------------- ----------AATGAGTATT GTGTTAATGTATATATATA- ATAATTA------ATATA--
+A_fulica             -------------------- -------------------- ----------TATTTGAATT A-------ATACCCTAAGCT TTAGTGA------AATTT--
+A_limba              ATAATAGTGGAGATAATGCA AGCATGAATACCCAACCATT CTTTAGGTTTAAATAAAACA ATCCTTAAAAAACTACAGG- TTTGTTAACTAAGAACCA--
+A_vulgar             -------------------- -------------------- ----------AAAGTAAATA AT----GTATAGATTAGTAT TTAATGG-------------
+C_annae              -------------------- -------------------- ----------GAAAATAAT- ------GTATAGATGAGTAG TAAATTA------AGGTA--
+
+S_velum              TTCATTCCAGCTCCCAATTA AAGAGCAA--ATGATTATGC TACCTTCGCACAG------- -------------------T CAGGGTACTGCGGCCGTTTA
+O_varia              TTCATTCTAGCCTTAATTTA TAAGGCAA--ATTATTATGC TACCTTAGTACAG------- -------------------T TATAATACCGCAGCTGTTAA
+O_bimac              TTCATTCTAGCCCCAATTTA TAGAGCAA--ATTATTATGC TACCTTAGTACAG------- -------------------T TATAATACCGCAGCTGTTAA
+O_sinens             TTCATTCTAGCCCCAATTTA TAGAGCAA--ATTATTATGC TACCTTAGTACAG------- -------------------T TATAATACCGCAGCTGTTAA
+D_gigas              TTCATTCTAGCCTCAAATTA TAAGGCAA--ATTATTATGC TACCTTAGTACAG------- -------------------T TAAAATACCGCAGCTGTTAA
+S_ouala              TTCATTCTAGCCTCAAATTA TAAGGCAA--ATTATTATGC TACCTTAGTACAG------- -------------------T TAAAATACCGCAGCTGTTAA
+S_spirul             TTCATTCCAGCCTCAAATTA TAAGGCAA--ATTATTATGC TACCTTAGTACAG------- -------------------T TAAAATACTGCAGCTGTTGA
+B_abyss              TTCATTCTAGCCTCAAATTA TAAGGCAA--ATTATTATGC TACCTTAGTACAG------- -------------------T TAAAATACCGCAGCTGTTAA
+O_minor              ----------CCCCAAAATA T------------------C TTTATAAGTATGA------- -------------------T AATGATGAAAAGG-------
+M_cali               GTAATT----TCTTAAATTT TACCTTAATAACTTAAGTGC TTGGTAAAAGTTT------- -------------------T TAAATGAACTCGGCAAATAA
+E_dofle              TTTAATTTAATTAAAAATTA TTAGTGAG--GTATATAATA AAAATTAATTAAA------- -------------------A TAAAGGAATTCAGCAAATAT
+A_fulica             TTCA-------CTTAATCTA TAATGTAAATATTAGTAAGT ATTTTAAATCTTT------- -------------------A TGAAGGAACTCGGCAAACCT
+A_limba              ATAACCCAAGAAACAAGTTA ----GCAATAACAATTGTAC CATCTAACCAAAGAAAGTAA AATGACTTGATCAATTCCTT CAAAGGAACTCGGC-----A
+A_vulgar             --------------AAATTA TAAAT--------------- -------------------- -------------------- --AAGGAACTCGGCAAAAAT
+C_annae              TTTTTT-----CTAAGCTTA TAGAAAGATCTTAAGTGTTT TCTTTAAATTAGT------- -------------------T AAAAGGAACTCGGCAAATAT
+
+S_velum              AAT-----TTACTTCACTGG GCAGGCTCTACTTTTC-ATT TTACTTCAACGAAAAGCGAT GTTTTTG---AT-AAACAGG CG---GGACTTAT-TTTGCC
+O_varia              ATTTT---TCTTCTCACCGA GCAGGCCCAACTCTCT-ATG AAATAAACTCAAAGAGACAT ATTTTTG---ATAAAACAGA CA---AAATTAATTTTTGCC
+O_bimac              ATATT------AATCACCGA GCAGGCCCAACTCTTTAATT AAAAAAACTCAAAGAGACAT GTTTTTG---AT-AAACAGG CG---AAATTATCATTTGCC
+O_sinens             ATATT------AATCACCGA GCAGGCCCAACTCTTC-ATT AAAAAAACTCAAAGAGACAT GTTTTTG---AT-AAACAGG CG---AAATTTATCCTTGCC
+D_gigas              AAA-----CTTATTCACCGA GCAGGCCCGACTCTTT-ATC TATATTTCACAAAGAGACAT GTTTTTG---AT-AAACAGG CG---AGATTAATATTTGCC
+S_ouala              AAA-----CTTATTCACCGA GCAGGCCCGACTCTTT-ATC TATATTTTACAAAGAGACAT GTTTTTG---AT-AAACAGG CG---AGATTAATATTTGCC
+S_spirul             AATT----TAAATTCACTGA GCAGGCCCAACTCCAT-ATT TATAATTAACAAAGAGACAT GTTTTTG---AT-AAACAGG CG---AGATTATTATTTGCC
+B_abyss              AAATAAATTTATTTCACCGA GCAGGCCCAACTCTTT-ATA TATTATTAACAAAGAGACAT GTTTTTG---AT-AAACAGG CG---AGATTAATATTTGCC
+O_minor              AATTTTATCCAAATCACTAT TTAAACCCAATGGATT---- ---------AGAAGACCCCT TCTCATG------------- CA---AAAACAAAAAATGAA
+M_cali               GACTT--------------- -----CTCGACTGTTT-AA- ---------CAAAAACATTT CCTTCTG---GT-GTAAATA AA---AGG-TAGTCCCTGCC
+E_dofle              TAAT---------------- -----TTCGCCTGTTT-AT- ---------CAAAAACATGT CTCTTTGAAAATTTAATAAT AA---AGAGTTTGGCCTGCT
+A_fulica             ATTTCT-------------- -----CTTGTCTGTTT-AC- ---------CAAAAACATAG CTTAAAGAGTGCGTAACACA GATTTTAAGTAACCCCTGCC
+A_limba              AAGCTGGACCAAAACCATCT TTAGGATCGACTGTTT-AC- ---------CAAAAACATAG CCCTACG--------ACACC CCTGTAAGGTGAAGCCTGCC
+A_vulgar             ACTT---------------- ----GCTCAACTGTTT---- -------AACAAAAACATAG CCTAATG---ACCTCATAT- -----TAGGTAAAGTCTGCC
+C_annae              AAGC---------------- -----TTCGACTGTTT-AA- ---------CAAAAACATAG CCTTTGG---A--GAGGGAT TA---AAGGTTATACCTGCC
+
+S_velum              GAATTCCTTAGAATAATCCT ATGCTAAAAAACTAATTACT TA---ACCTAAATTTTATAA T---CTCCAGCTAAATATCA ATCATATATC--AAT----A
+O_varia              AAATTCCTT----------- -----------TATTTTATT TT------------------ ----AA-----TTCATAACT CTCAAATTACATTTT----A
+O_bimac              AAATTCCTT----------- -----------AATTCTACT TA--------ATTCAAAAAT GTATATTTA--TTTATAAAA ACCTTAATTTC-AAT----A
+O_sinens             AAATTCCTT----------- -----------TAATTTACT TT-------------AATAT ATAAACCTATATTTATATTA AT--TAACTTTAAATTCAAA
+D_gigas              GAATTCCTT----------- -----------CACCTTACT TA---ACTTATTCTTTATAT A---AACCA--TTCACAATT ATAATATTTTTAAAC----A
+S_ouala              GAATTCCTT----------- -----------CATCTTATT TA---ACTTTCTCCTAATAT A---AACCA--TTTACAACT ACAACATCTTTAAAT----A
+S_spirul             GAATTCCTT----------- -----------TACTTTACT TACTTACTTATATTAATAAT ATATAACCA--TTTACATTT ATAACAATTAT-AAT----A
+B_abyss              GAATTCCTT----------- -----------TACCCTACT TT---AATAATATAAATAAC AT--TACTA--TTAACATTT ATAAAATCAATAAAC----T
+O_minor              GAAT---------------- -------------------- -------------------- ----TACTAATCCTATAGTT ACAAAAGGAA--ACAAAAAA
+M_cali               CAGTGC-------------- -------------------- -------------------- ----AGCTAGAGTAATGTCT GCTGTG------AACGGCGG
+E_dofle              CAGTGA-------------- -------------------- -------------------- ----GATTT--TTAACAGCT GCGGT-ATTATAACT----G
+A_fulica             CGGTGAGTT----------- -------------------- -------------------- --ATAGAAACTTTAACGGCC GCAGTACCTTG-ACT----G
+A_limba              CAATGACTG----------- -----------CCAATAACC TAACCAA------------- ----AATCAGTTCAATGGCC GCGGTAACTCTGACC----G
+A_vulgar             CGGTGATTT----------- -------------------- -------------------- -------TTTTTTAACGGCC GCAGTACTTTG-ACT----G
+C_annae              CAATGTCAT----------- -------------------- -------------------- ----AATCA-----ATGGCC GCGGTACTTTG-ACC----G
+
+S_velum              TACTAATTTATGCA------ -------------------- -------------TAAATTC TTAGTTTCTTTCAATTAAAA -CTATAAAACCCATATATTC
+O_varia              TATATATA------------ -------------------- -------------TATCTTC AT---CATTTAACATCCATT GTTCTTACTGGCATGAGTTA
+O_bimac              TATTAATTTATTTATAAATT AATAAATATATACAACAAAA TTAATACTCATTTTAACATT ATATTTTCCTTCCTATAATT -CAAAGAAATTTATTTAATT
+O_sinens             TACTAAAAATAAAACTAATT ATATATACCATCCAA----- -AAATACTCATTCTAACATT ATATTTCACTTTTTATAATT -----AAAAGATATTTATCC
+D_gigas              TATTAACTATAAAAATTCTA AC------------------ -TAATACTCATACTAACATT ATATTTATCTACCACTAAAT -TTATAAA---CATTTATTG
+S_ouala              TATTAACTATTGAAATTCCG AC------------------ -TAATACTCATATTAACATT ATATTTACTTACTTGTAAAT -TCATAAG---CATTTATTA
+S_spirul             TAATAATAATTTCA------ --CTT--------------- -TAATACTCATATTAACATT ATAATTATTTTTTAT--AAT -TAAAAAA---CATTTATTA
+B_abyss              TATAAATTTACATA------ -------------------- ---ATACTCATATTAACATT ATAACTACCTA--AACTAAT -TTATAGA---CATTTATTA
+O_minor              TGAAAACAAAAAAA------ -------------------- --GCGCCTCAAAGTAGCATT AT------------------ -CAACAGAAAATCCTCCTCA
+M_cali               CGTTAACGTGAGCG------ -------------------- -----TCCTAAGGTAGCGCG AT---AATTTGCCTTTCAAT -TAAAGGATGGTATGAAAGG
+E_dofle              TACTAAGG------------ -------------------- -------------TAGCATA AT---AATTTGCCTTATAAA -TTAAGGCTAGAATGAATGG
+A_fulica             TGCAAAGG------------ -------------------- -------------TAGCATA AT---AATTTGTCCTCTAAT -TAAGGTCTGGAATGAA-GG
+A_limba              TGATAAAG------------ -------------------- -------------TAGCATA AT---CACTTGTCACTTAAT -TGGTGACTGGAATGAATGG
+A_vulgar             TGCTAAGG------------ -------------------- -------------TAGCAAA AT---AAATAGGCTTATAAT -TAAGGTCGAGTATGAATGG
+C_annae              TGCTAAGG------------ -------------------- -------------TAGCACA AT---CAATTGGCCCTTAAT -TAGGGTCAGGTATGAATGG
+
+S_velum              TAAGAAGAGTAAAAACAATT ATTAAATACAAACATTTTTT TAAAAACAAACTCATGAAGA -------------------- -TAGCAAATTCTAAGCCTAC
+O_varia              GTT---TGACAGAAGGCTGT GCCAAGCTCTACTATCTAGT TTGGCAT--GCTTTCTACGG CTGGATGCCCTTCCTAACGC CAACACTCAACAGAGTGTAC
+O_bimac              AATCATAAAGAAAAGTATTT ATAAAACACAATATATT--- --AATAT--ACCAACAAAGA -------------------- -AAAA--ATATTAATTCAAC
+O_sinens             AACTGCTATAAAGAAAATTT AA-TAATATAAATAACA--T TAAAAAT--AACAATAAAGA -------------------- -AAAA--ATATTAATTCAAC
+D_gigas              ACTATATAACATGAGACTAA CA-TAATATTCTTCACAATT T-AAACT--ACTTTCAAAGA -------------------- -AAAACATTATTAATTCTAC
+S_ouala              ATTACTCAACATGAAATTAA AACCAATACTATT-ATAATT T-AAACT--ACTTTTAAAGA -------------------- -AAAACATTATTAATTCTAC
+S_spirul             ATTATCCCAACCTAAATTTT AACTACATATAATATTTA-- --ACACT--ACTTTTAAAGA -------------------- -AAAACATTATTAATTCTAC
+B_abyss              GCTAAACAACCTGAATTTAA CCTTTATTTATAAATTT--- --AAATT--ACTTTTAAAGT -------------------- -AAAACATTATTAACCCTAC
+O_minor              AATCCAGTACACTAATATTT CCCCAATATAAGGAACTACT G-ATACTAAATTTGT----- -------------------- --AATTACCGTTGCGCCTCA
+M_cali               GTTAACGAGGAAGGTGCTGT GTCTAA----AAACTTAGTT T-AAACT--AACTCAAAGGT -------------------- -GAAG-------AGGCCTTT
+E_dofle              TTTGACGAAAATTATACTGT CTCTATTTTAATTAATA--- --GAAATTAATTTTTATAGT -------------------- -GAAA-------AAGCTTAG
+A_fulica             GGGACACAGGGGAGAGCTGT CTCCAATAAGGTTAATTT-- --AACTT--TCTTATCAGGT -------------------- -GAAA-ATTCCTGAGCCTCC
+A_limba              CTAAACGAATCCTCCCCTGT CTCTGA----AGGAATCCTG GCAAATTTGAAATAGCAGTG -------------------- -AAGATGCTGCTAAATAATT
+A_vulgar             CATTATGGGTG-AAAGCTGT CTTACACATATATACA---- --AAAATTTAATTAGTAGGT -------------------- -GAAA-------ATGCCCAC
+C_annae              AGT-TACGGGGCTTAGCTGT CTCTAA----ACTATTTAAT TGAAGTT--GCTGTATAGGT -------------------- -GAAA-------AAGCCTAT
+
+S_velum              TTTAATTAATAA-------- -------------------- -TTTTTATACAA-----TAT TCTTTATA---TCATAAAAG AACTTGTATTCTCTC-----
+O_varia              ACACACATATACGTATATAT ATATGACGG----------- -GCTTCGTTCAG----TTTC CATCTGCC---AAATCCACT CTCAAGTCTTTAGTCGGCCT
+O_bimac              TTTAACTAACCATTTAATAT TAAAAAATTTTCTTACACCC AAACATATGAAG---CTTAT CCCCAAAT---ATATAAATC AAAAAA--------------
+O_sinens             TTCAATTAATCATCTTATTA TATACATTCTTACAAT---- -AATATATGAAG---CTTAT CCCCCAAT---ACTTAAACT AAAAAAACTACCAA------
+D_gigas              TTAAATA-ATTTATAAATA- TTAACAATCTCTATGCC--- -ATTACATGAAG---CTTAT CCCCCATA---CTATAAACT AACATT--------------
+S_ouala              TTAAATT-ACCTAATAATAC TTAACACTCTCTATGAC--- -TTTATATGAAG---CTTAT CCCCCATA---TTATAAACT AACATT--------------
+S_spirul             TCAAATTGTTTACAATATAT ATAAAATTTTATCACAT--- -TTTATACGAAG---CTTTT CCCCCGTA---CAATAAACT AACACTATTTATA-------
+B_abyss              TTAAATC-ATTATATAATAA CAACTAATTCTATAAAA--- -ATTACATGAAG---CTTAT CCCCCATA---TAGTTAACT AATACTTCATAAACCTGTAT
+O_minor              AAAAGATATTTG-------- -------------------- -ACCTCATGGAAGTACATAT CC--------------AACA AACCCAGTTA----------
+M_cali               ATGAAGAAGAAGGACGACAA G------------------- -ACCCTATGAAG---CTTAA TCTTAGTAGGGGTCTGAGAG ACCCTT--------------
+E_dofle              ATAATTTAAAGGGACGAGAA G------------------- -ACCCTATTGAG---CTTTA TATTAGTT---ATAATAAAT AATAAAAATATAATTTATTT
+A_fulica             GATGAAAGACGAGAAGACCC TTAGAGTTTTTATTATAACT TGATATATTAAGATTCTTGT TCTGTTTT---TGTTGGGGC GACAGGGTTACAAT------
+A_limba              GTAAGACGAAAAG------- -------------------- -ACCCTATCGAG---CTTTA CTGGAAGC---TTGTAAAAT AATATAACTATTAACAACA-
+A_vulgar             ATAAAAATATTAGACGAGAA -------------------- -GACCCTTAGAG-------- -----------TTTTTAATA AGCATGCTACTAATAG----
+C_annae              ATTAAGAAAAAAGACGAGAA -------------------- -GACCCTTAGAG---TTTTA C----------TTAAGAAAG AATTATCTCT----------
+
+S_velum              ---------------ACGGG ACTTTTAT------------ -------------------- ---------AATATCTAATA ATGTTTAAACAAAATTAGAA
+O_varia              GAGGCGAAGTGTAGTAGAAA ACACTTGT------------ -------------------- -------------------- -------------ACTAAAA
+O_bimac              ---------------AAATT ACTTATAT------------ -------------------- --------------AATTAA TTTTTTAACTAACACTAAAA
+O_sinens             ---------------CCATA AATAATTT------------ -------------------- -------------------- ----TTAACTAACACTAAAA
+D_gigas              ---------------AAATA ATTTTCAT------------ -------------------- -------------------- ----TATATCAACGCTATAA
+S_ouala              ---------------AAACA ACTTACAC------------ -------------------- -------------------- ----TGTATTAATATTACAA
+S_spirul             ---------------ATACA ACACATAT------------ -------------------- -------------------- ----TTATTTAACATTACAA
+B_abyss              T--------------ATATA AGAATCAT------------ -------------------- -------------------- ----------AATACTTAAA
+O_minor              ---------------ATATA ACTAAAAT------------ -------------------- -------------------- ---ATATAATACTACACCCA
+M_cali               ---------------GTACG ATTTTGAT------------ ----------GGGAGATCAG TAAAAATAAGTCTTCTACTA TTATTTTAGTCATACTAGTG
+E_dofle              GGTTAAATTAGTATTATATT AATAATATTTATTATGTTTA ATTTTGATTGGGGTGATCA- -----AGGAATAAAGTGGAT ATTATTTAACTTCCTTAAAA
+A_fulica             ---------------AGATA ACTTACCC------------ -------------------- -------------------- -------TACCATATTTTTA
+A_limba              ---------------AAGAC ATCTAAATTGCAAGCCTGAC AGTTTGGTTGGGGCGACCAC CCCTAAAAATGTATCAGGGG AACTCTAAAGGCTATCATAA
+A_vulgar             ---------------TGATG ATTTTTTT------------ -------------------- -------------TGTTGGG GCGACATAGTATCATTTTAG
+C_annae              ---------------TTACT AGTTTTGT------------ -------------------- ----TGGGGCAACATAGGAG AAGAATCAAACCTCCTAAAG
+
+S_velum              AAT--AAAA----------- -------------------- -------------------- --AGCTATACTTCCATAT-- --------ATTTCTGAGTTA
+O_varia              GGT----------------- -------------------- ----------------TCCA CACAGTAGAACTAAACCCAG ACTAACCATGTGGTTGAGAA
+O_bimac              TGT----------------- -------------------- -------------------- -------------------- --------AAAAATAAATAA
+O_sinens             TGT----------------- -------------------- -------------------- -------------------- --------AAAAATAAATAA
+D_gigas              TA------------------ -------------------- -------------------- -----CTTAAATATACAC-- ------------ATCAATAA
+S_ouala              TA------------------ -------------------- -------------------- -----CTTAAATATAATC-- ------------ACTAATAA
+S_spirul             TAC----------------- -------------------- -------------------- ----TTAATATTTTACAC-- --------------CAATAA
+B_abyss              TAT----------------- -------------------- -------------------- -----------TTTAAAC-- --------------TAATAA
+O_minor              CAT----------------- -------------------- -------------------- -----TTCAAGTATATAC-- ------------ATTTATAT
+M_cali               TTT----------------- -------------------- -------------------- -----CCTAATTTTATAT-- ---------------GTGTG
+E_dofle              TTT----AA----------- -------------------- -------------------- --TTTTTTTAGAATAATTAA CCAATGATATTGCTTATATG
+A_fulica             TAT----------------- -------------------- -------------------- --GGCGATCATTATACTT-- ----------------TTAA
+A_limba              TATGAAAAACTGCCTTACTG GAGACAAACAAGTCAATCAG TTATAATCTATAGGACATAT TGACCCGTTATTTTATTTCA CAATAAATAACGACTATGAA
+A_vulgar             CAT----------------- -------------------- -------------------- ---ACTCATATTATAGCTAT TATACAAATCTTCTTTACTT
+C_annae              CAT--ATAA----------- -------------------- -------------------- --ACCGATGTTTTTAAAT-- ----------------ATGA
+
+S_velum              ACCAGC-----TATCATTAT GTGC--GATTTGCATTTCAC ATCTATTTTATAATCTAAA- ------AACAATTTTGCAAC ATTGACT-------------
+O_varia              GCAAGCTTACTTATCACAAT ATAT----TCAAAATTTTCA TCTTATTCAAAATTAAATAC TCTTTCTAACATTATACATC ATTT----------------
+O_bimac              ACTAGC-----TACCATATA AACC--GAATAACATTTCAC TACCATTTACCTTTAAAAT- ------AATAACTATACCAC GTTAACTATTTATATAATAA
+O_sinens             ACTAGC-----TATCATACA AATC--GAATAGCATTTCAC TACCATTTACTCTTAAAAT- ------AATAACTTTACCAC GTTAACTACACATAAAA-TA
+D_gigas              ACTAGC-----TATCATGAA AATC--GATAAACATATCAT TACCACTCAAAAATCAATA- ------TATAACTATACAAC GTTAACA-------------
+S_ouala              ACTAGC-----TATCATGAA AATC--GATAAACATATCAT TACCACTTAAAAATCAATA- ------TATAACTATACAAC GTTAACA-------------
+S_spirul             ACTAGC-----TATCATAGA AAAC--GATAAACATTTCAT TACCACTTAATAATCAATA- ------TATAACTATACAAC GTTAACATA-----------
+B_abyss              ACTAGC-----TATCATAAA AAAC--GATAAACATTTCAC TACCACTTAATAATAAATA- ------TATAACTATACAAC GTTAACAT------------
+O_minor              ACAACC-----CATAATATA ATCCTCGACCAATATGTATA TATAAACAAATAA----AA- ------AAAAAAGATGCACC ATTAGCA-------------
+M_cali               ACTAGC-----TACTCTAGG GATA-ACAGCGCAATTTCTC CCGAAAGATGGTATTGGAG- ------GGGAAGATTGCGAC CTCGA---------------
+E_dofle              ATAAGT-----TACCATAGG GATA-ACAGCGTAATTTTTT TGGAGAGTTCATATTAAAA- ------AAAGAGATTGCGAC CTCGA---------------
+A_fulica             TTAAGC-----TACCTAAGG GATA-ACAGCGTAATCTTTT T------------------- ------TTTTGGTTTGCGAC CTCGA---------------
+A_limba              AAAAGT-----TACCGTAGG GATA-ACAGGGTAATATTTT CAGAGAGTTCATATCGATG- ------AAAATGTTTGCCAC CTCGA---------------
+A_vulgar             ATGAACATAACTACCTAAGG GATA-ACAGCATAATTTTTC -------------------- ------TTTAAGATTGTGAC CTCGA---------------
+C_annae              ATAAAC-----TACCTTAGG GATA-ACAGCATAAT----- -------------TTTAAA- ------AATAAGTTTGTGAC CTCGA---------------
+
+S_velum              -----TAA-GTTATAAAATA GCTCACATAATTTCGGGACA ATATA-----------TCAA TATTTATA-TCTCGCACAAT CATGATGCAAAAGGTA---C
+O_varia              -----TCTTTAAATCAAAAC AATTTATTTA-ATAAAGATC ATTTT---------CCACAC AAATAATATACTAAT----- --TTATCTAAAAGAAAAATT
+O_bimac              TAATATAT-TAAGGCAAATA AATCTTTATATTTCGAGAAA TAAAT-----------ATAT ACTTAATAATATTATTAAAC CATTATGCAAAAGGTA---C
+O_sinens             T----TAC-TAAAACAAATA AATCTTCATATTTCGAGAAA ATTAT-------ATCCATAA AATAA----TATTATTAAAC CATTATGCAAAAGGTA---C
+D_gigas              -----TATACTTATTGAGTA AATCCTTTCACTTCGAGAAT ATATA---------ATATAA CACTAAA--AATCATCAATC CATTATACAAAAGGTA---C
+S_ouala              -----TATACTTATTAAGTA AATCCTTTCACTTCGAGAAT ATATT---------ATATAA TACCAAA--AATCATCAATC CATTATACAAAAGGTA---C
+S_spirul             -----TAT-CTTACTAAGTA AATCCTTCTATTTCGAGATC ATTTT-----------ATAA AAACAAACCTATCATCAACC CATTATACAAAAGGTA---C
+B_abyss              -----AAACCTTAATAAGTA AATCCTTTTACTTCGAGATA AATTC---------ATAGAA AACAGTAC-AATTATCAACC CATTATACTAAAGGTA---C
+O_minor              -----TGAATATACCGTAAT ATCCATCCATAATTAACATC TCGTATAATATGAACCACAG AATCAAATGAATACTCAATA CATGAAGTATAATGTATAGC
+M_cali               -----TGT-TGGCTTTAGAT GTCCAAGAGGCGTAGAAGCT TCTAA---------TGGTGG G--------TCTGTTC-GCC CTTTAAAAT---CTAA---C
+E_dofle              -----TGT-TGGATTAAAAT AACCATAAGGTGAAGAGGCT TTATT---------TGGTGA A--------TCTGTTCGATT TTTAAAATT----TTA---C
+A_fulica             -----TGT-TGGACTAGGGG ---CCTACTGGTTAGTTACC ATTAT--------GGGGCGG T--------TCTGTTCGAAC TTTT---CCTACCCTA---C
+A_limba              -----TGT-TGAATTATGAT ATCCTGAGGGTGCAGCAGCT CTCAA---------GGGTTG G--------TCTGTTCGACC ATTAAAATCATA-------C
+A_vulgar             -----TGT-TGGACTAGGGA -----CTAAATATATAAGCC ATATA--------CTTAGAA TAT------TCTGTTCGAAT AATTTTTTT--ACCTA---C
+C_annae              -----TGT-TGGACTAGG-- AAACTTAAGGGCTAGCCGCC CTTTG---------GTAAGG T--------TCTGTTCGAAC TATAATTCC-----TA---C
+
+S_velum              GAACTTTCATTTCTACTAAA CA-CAAATTACAA-A----- --ATTTTCCTT-CTCAGTAC ------------------TT CTA---AACTATA---GCCA
+O_varia              ATTAATCCAACTCAAACCTA T--TAAACTATAA-ACATAA ATCCCTAAATCTCAAAATAA ATTACTCTAAATAATTTATT TTAATTTGCACTCAAATGAA
+O_bimac              AAAATTTAAATTTTACTATA CTTAAAACTAAACAAAAAAT ACATCCTCTTC----AGTAC ----AAATAAAAAATTATTT CTA---TACCCACTACTTTT
+O_sinens             AAAACTTAAATTTTACTATA AC-TAAATTCACAAAATTCT ACATCCTTCTC----AGTAC ----ATACAAATAAATATTT CTA---TACCCATTACTTTA
+D_gigas              GAGAATTAAACTCTACTATC CT-TAAATTACCT-AAACGA ATTCATTCCTT-TACAGTAC TCTAATACAACACAATACTT CTA---TACTACTTATACTA
+S_ouala              GAGATTTAATCTCTACTATT CT-TAAATTAAAC-AAAACT ATTC-TTCCTT-TACAGTAC TTTGACACAACATAA-ATTT CTA---TACTACTTATACTA
+S_spirul             AAAAATATATTTCTACTATA TAATAAATTA----ATATCA ATATTTTCCTT-TACAGTAC ---TCTATACAACAACATTT CTA---TACTACTAATACTA
+B_abyss              GACCATTTACATCTAC---- ---TAAACTAAAA-ATATAT ACATTTTCCTT-TACAGTAC --TTACTAACAACATTATTT CTA---TACCATTAATACTA
+O_minor              AAGAAATAAACCTCTC---- -A-TTAACTGAAT-AATTAA ACATAATCCTAACAAAGAAC CAAAATTCCACCAAA----- -TA---AATAAATTAACTGG
+M_cali               ATGAGCTGAGTTCAGAACGG CG-TGAGCTAGTT-CAGTTT CTATCCTCTTT--------- ------------------TT AAA---ATCAGTTAATTTTG
+E_dofle              ATGATCTGAGTTCAAACCGG TG-AAAGCCAGGT-TGGTTT TTATCTT-----TTAAATTT ---------------AATTT TTA---T----TTAATTTAG
+A_fulica             ATGATCTGAGTTCAGACCGG CG-CAAGCCAGGT-CAGTTT CTATCTTCCAT--------- ------------------TT TGA-------TTTTAATTAG
+A_limba              ACGATTTGAGTTCATTCCGT CG-TAAGACAGGA-AGGTTT CTATCTACAAT-TAAAGAAC --------TAAGCACAAACT CTA----------------G
+A_vulgar             ATGATCTGAGTTCAGACCGG TG-TAAGCCAGGT-CAGTTT CTATCTTTATT--------- -------------------- ------AGATATAGGACCAG
+C_annae              ATGATCTGAGTTCAGACCGG CG-TGAGCCAGGT-CAGATT CTATCTTTTTA--------- -------------------- -------CTTAAAAATTTAG
+
+S_velum              TATAAAATAATTTCTTTAAA TAAT---------------- ---ACT---TTACTTATTAG ATATTTCT---------GTT A--TAAATTTATTAACCTAT
+O_varia              TACCAATAAACTAGTTACCA TAAAAATCAATTAGCATTTC ACTACCATTTAATTTGAAAA TAATAACT---------ATA T--TACATTAACTAATATAT
+O_bimac              TAATAAAAACTTTTATA--- ------------------TA TACATA---TTATTTTATAA TCACCCCG---------ATA T------------AAATACT
+O_sinens             AAATCAAAAAC--------- -------------------- ------------TTTTATCA ATACTTCT---------ACT C--AAAATAAATATCAAAAT
+D_gigas              CCTAAAAAAACAATTTAATC TATTTATAATCCT-C----- --AACA---CAATTTAGTAA ACAAC-TT---------ATA T--CAA-AAAACAACTTTTT
+S_ouala              TCTAAAAAAACGATTTAATC TATTTAAATTTATAT----- --AACC---TAATTCATCAA ACACCTTT---------ATA T--TAACAAAACAA--TCTT
+S_spirul             CATCAATAAATAATTTA--- -------------------- -----------AATTAATTA ACATTTCT---------ACA T-------TCTTCTACTCAT
+B_abyss              AATAAAAAAACAATTTAAAT TAATTTACATTGAAGTAATA CAAACA---ACATATCTTAT AAAACTATTAAATAACAACC TCTCAACTAATGAAACACTT
+O_minor              TGAAGGTAAATCAATCA--- -------------------- -----A---CGCTCCATTAA TAATTTGC---------AAA A--CAGGATGAGTTTTTCGT
+M_cali               TACGAAAGGACTTTTTTGCT AAAGTGATGCTTTGCGGTTA GACTCG---TTATTTCACAG GGAATATT---------ATA TGGTAGGCTGACTGACCTAT
+E_dofle              TACGAAAGGATTGATTA--- -------------------- -----------------CAA TTAATTTT---------ATT T--TAATTAATTAGAATAAA
+A_fulica             TACGAAAGGATCATT----- -------------------- -------------------- -----------------AAA T--TAGACTATTCAGTCTAC
+A_limba              TACGAAAGGAATGAGTAATG TCATTTCGAAAATGAAGTAA TCAATC---TGATTTAATAT AAGTTTTT---------AAA CTATAGTTCAGCAATTATAT
+A_vulgar             TACGAAAGGACCTTCTTATA GTGATAAAA----------- ---------------AAAAA TCATTTTT------------ --------------------
+C_annae              TACGAAAGGACCAGTTT--- -------------------- ----------------TTAA TATGCTTT---------ATA ---TAA--------------
+
+S_velum              CAAATTCATGCTATAAATAT ATCA---------------- -------------------- -------------------- ------------------
+O_varia              TAAACCACTAT--------- -------------------- -------------------- -------------------- ------------------
+O_bimac              CAAACTCGATTTATTCA--- -------------------- -------------------- -------------------- ------------------
+O_sinens             AAAAACCCAATCT------- -------------------- -------------------- -------------------- ------------------
+D_gigas              CAACAACAATTTCATCACAT AATGATGACCCTACACAGTA TTGTTTTATCTAATAATTTA CTAATCTGCAAACCACCATA AACACACAATAACCTATA
+S_ouala              AAAACACAATTTCATTACA- -------------------- -------------------- -------------------- ------------------
+S_spirul             TATAAAC------------- -------------------- -------------------- -------------------- ------------------
+B_abyss              TACAAGCTAAACCTTTATAC ATTAATTATGAGAAAGTATA ATATA--------------- -------------------- ------------------
+O_minor              AAAGAACTAAGCAT------ -------------------- -------------------- -------------------- ------------------
+M_cali               AAAAAGGGGATT-------- -------------------- -------------------- -------------------- ------------------
+E_dofle              TAAAT--------------- -------------------- -------------------- -------------------- ------------------
+A_fulica             AATA---------------- -------------------- -------------------- -------------------- ------------------
+A_limba              -------------------- -------------------- -------------------- -------------------- ------------------
+A_vulgar             -------------------- -------------------- -------------------- -------------------- ------------------
+C_annae              -------------------- -------------------- -------------------- -------------------- ------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+END;
